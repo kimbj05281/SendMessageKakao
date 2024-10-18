@@ -2,7 +2,7 @@ def first_kakao(auth_code):
     import requests
 
     url = 'https://kauth.kakao.com/oauth/token'
-    rest_api_key = '79717d2db811692ed69b36c52e329438'
+    rest_api_key = '내 API KEY'
     redirect_uri = 'https://example.com/oauth'
     authorize_code = auth_code
 
